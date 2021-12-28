@@ -1,165 +1,158 @@
 /* reset default */
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-    max-width: 1600px;
-    margin: auto;
-    display: flex;
+body {
+  max-width: 1600px;
+  margin: auto;
+  display: flex;
 }
 
 /* navigation side bar */
-nav{
-    width: 300px;
-    height: 100%;
+nav {
+  width: 300px;
+  height: 100%;
 }
 
-nav .portfolio{
-    padding: 0 16px;
+nav .portfolio {
+  padding: 0 16px;
 }
 
-.portfolio img{
-    width: 45%;
-    border-radius: 4px;
+.portfolio img {
+  width: 45%;
+  border-radius: 4px;
 }
 
-.bar-block a{
-    display: block;
-    color: #000;
-    padding: 8px 16px;
+.bar-block a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
 }
 
-.bar-block a:hover{
-    background:#ccc;
+.bar-block a:hover {
+  background: #ccc;
 }
 
-.bar-block .portfolio-button{
-    color: #009688;
+.bar-block .portfolio-button {
+  color: #009688;
 }
 
-.bar-block .portfolio-button:hover{
-    color: #000;
+.bar-block .portfolio-button:hover {
+  color: #000;
 }
 
-
-nav .icons{
-    padding: 0 16px;
-    margin: 16px 0;
+nav .icons {
+  padding: 0 16px;
+  margin: 16px 0;
 }
 
-nav .icons i:hover{
-    opacity: 0.60;
+nav .icons i:hover {
+  opacity: 0.6;
 }
 
 /* =============Offcanvas========= */
-#offcanvasExample{
-    width: 300px;
+#offcanvasExample {
+  width: 300px;
 }
 
-.offcanvas-header img{
-    width: 45%;
-    border-radius: 4px;
+.offcanvas-header img {
+  width: 45%;
+  border-radius: 4px;
 }
 
-.offcanvas-body .bar-block a{
-    display: block;
-    padding: 8px 0;
+.offcanvas-body .bar-block a {
+  display: block;
+  padding: 8px 0;
 }
 
-.offcanvas-body .icons{
-    margin: 16px 0;
+.offcanvas-body .icons {
+  margin: 16px 0;
 }
 
-.offcanvas-body .icons i:hover{
-    opacity: 0.60;
+.offcanvas-body .icons i:hover {
+  opacity: 0.6;
 }
 
 /* ==============content================ */
-.main{
-    width: 100%;
-    background: #f1f1f1;
+.main {
+  width: 100%;
+  background: #f1f1f1;
 }
 
-
 /* header */
-.header-container{
-    padding: 0.01em 16px;
-    
+.header-container {
+  padding: 0.01em 16px;
 }
 
 /* ==menu== */
-.menu-container{
-    display: none;
+.menu-container {
+  display: none;
 }
 
-.menu-container .menu{
-    padding: 8px 16px;
-    text-align: center;
+.menu-container .menu {
+  padding: 8px 16px;
+  text-align: center;
 }
 
-.menu-container .menu a{
-    background: #f1f1f1;
-    border: none;
-    color: #000;
-    font-size: 36px;
+.menu-container .menu a {
+  background: #f1f1f1;
+  border: none;
+  color: #000;
+  font-size: 36px;
 }
 
-.menu-container img{
-    border-radius: 50%;
-    width: 65px;
-    margin: 16px;
+.menu-container img {
+  border-radius: 50%;
+  width: 65px;
+  margin: 16px;
 }
 
 /* =======Responsive======== */
-@media only screen and (max-width: 992px){
-    .menu-container{
-        display: flex;
-        justify-content: space-between;
-    }
+@media only screen and (max-width: 992px) {
+  .menu-container {
+    display: flex;
+    justify-content: space-between;
+  }
 
-    nav{
-        display: none;
-    }
+  nav {
+    display: none;
+  }
 }
 
 /* ========== */
 
-.header-container h1{
-    margin: 10px 0;
+.header-container h1 {
+  margin: 10px 0;
 }
 
-.header-bar{
-    padding: 16px 0;
-    margin: 16px 0;
-    border-bottom: 6px solid #ccc;
+.header-bar {
+  padding: 16px 0;
+  margin: 16px 0;
+  border-bottom: 6px solid #ccc;
 }
 
-.header-bar button{
-    padding: 8px 16px;
-    background: #fff;
-    border: none;
+.header-bar button {
+  padding: 8px 16px;
+  background: #fff;
+  border: none;
 }
 
-.header-bar button:hover{
-    background: #ccc;
+.header-bar button:hover {
+  background: #ccc;
 }
 
-.header-bar .all-button:hover{
-    color: #000;
+.header-bar .all-button:hover {
+  color: #000;
 }
 
-.header-bar button i{
-    margin-right: 16px;
+.header-bar button i {
+  margin-right: 16px;
 }
 
-.header-bar .all-button{
-    background: #000;
-    color: #fff;
-    fdsafdsafdsa
-    fdsafdsafsafs
-    fdsafsa
-    fdsafdsa
+.header-bar .all-button {
+  background: #000;
+  color: #fff;
 }
