@@ -139,13 +139,27 @@ nav .icons i:hover{
 
 .header-bar button{
     padding: 8px 16px;
+    background: #fff;
+    border: none;
+}
+
+.header-bar button:hover{
+    background: #ccc;
+}
+
+.header-bar .all-button:hover{
+    color: #000;
 }
 
 .header-bar button i{
     margin-right: 16px;
 }
 
-.all-button{
+.header-bar .all-button{
     background: #000;
     color: #fff;
+    fdsafdsafdsa
+    fdsafdsafsafs
+    fdsafsa
+    fdsafdsa
 }
